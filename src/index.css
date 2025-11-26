@@ -1,0 +1,240 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #e2e2e2;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+.navbar {
+  background: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #bb00ab;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links button:hover {
+  background: #a00093;
+}
+
+.profile-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.logout-btn {
+  background: #dc3545;
+}
+
+.logout-btn:hover {
+  background: #b02a37;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+.toggle-auth {
+  text-align: center;
+  cursor: pointer;
+}
+
+.toggle-auth span {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.logout-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), 
+    url("https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1307") no-repeat center center/cover;
+  color: white;
+  align-self: center;
+  padding: 4rem 1rem;
+  padding-bottom: 14rem;
+}
+
+.landing h2 {
+  margin-top: 10rem;
+  font-size: 5rem;
+  color: white;
+}
+
+.landing p {
+  font-size: 2rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.form-container {
+  margin: 2rem auto;
+  max-width: 400px;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form-container input {
+  width: 93%;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  width: 100%;
+  background: #bb00ab;
+  color: white;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background: #a00093;
+}
+
+.event-list, .match-list {
+  padding: 2rem;
+}
+
+.event-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.event-card:hover, .match-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-item, .match-card {
+  background: #ecafee;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.event-item:hover {
+  background: #f5c6f6;
+}
+
+.event-data {
+  width: 60%;
+  margin-top: 100px;
+  padding: 2rem;
+  color: #444;
+  align-content: center;
+  background: #ecafee;
+  margin-left: 16rem;
+  border-radius: 10px;
+}
+
+.back-btn {
+  background: #444;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #666;
+}
+
+.enroll-btn {
+  background: #444;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: 0.3s;
+}
+
+.enroll-btn:hover {
+  background: #666;
+}
+
+.enroll-btn:disabled {
+  background: #666;
+  cursor: not-allowed;
+}
